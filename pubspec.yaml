@@ -1,0 +1,27 @@
+name: cocode_postal
+description: A cross-platform Flutter package for Korean postal address search using Kakao postcode service. Supports both mobile and web platforms seamlessly.
+version: 1.0.0
+homepage: https://github.com/pyowonsik/cocode_postal
+repository: https://github.com/pyowonsik/cocode_postal
+issue_tracker: https://github.com/pyowonsik/cocode_postal/issues
+documentation: https://pub.dev/packages/cocode_postal
+
+environment:
+  sdk: ^3.5.0
+  flutter: ">=3.24.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+  geocoding: ^3.0.0
+  web: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  assets:
+    - assets/kakao_postcode_localhost.html
