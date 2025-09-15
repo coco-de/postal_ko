@@ -23,7 +23,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  cocode_postal:
+  postal_ko:
     path: ../
 
 dev_dependencies:

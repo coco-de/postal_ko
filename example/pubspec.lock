@@ -33,13 +33,6 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.2"
-  cocode_postal:
-    dependency: "direct main"
-    description:
-      path: ".."
-      relative: true
-    source: path
-    version: "1.0.0"
   collection:
     dependency: transitive
     description:
@@ -247,6 +240,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.8"
+  postal_ko:
+    dependency: "direct main"
+    description:
+      path: ".."
+      relative: true
+    source: path
+    version: "1.0.0"
   sky_engine:
     dependency: transitive
     description: flutter

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:cocode_postal/cocode_postal.dart';
+import 'package:postal_ko/postal_ko.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
