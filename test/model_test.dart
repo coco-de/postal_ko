@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:cocode_postal/cocode_postal.dart';
+import 'package:postal_ko/postal_ko.dart';
 
 void main() {
   test('Kpostal 모델 json 파싱', () {

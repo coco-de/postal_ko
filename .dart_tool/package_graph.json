@@ -1,10 +1,10 @@
 {
   "roots": [
-    "cocode_postal"
+    "postal_ko"
   ],
   "packages": [
     {
-      "name": "cocode_postal",
+      "name": "postal_ko",
       "version": "1.0.0",
       "dependencies": [
         "flutter",

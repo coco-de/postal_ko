@@ -1,11 +1,11 @@
-[![pub package](https://img.shields.io/pub/v/cocode_postal.svg?label=cocode_postal&color=blue)](https://pub.dev/packages/cocode_postal)
-[![Pub Likes](https://img.shields.io/pub/likes/cocode_postal)](https://pub.dev/packages/cocode_postal/score)
-[![Test](https://github.com/pyowonsik/cocode_postal/actions/workflows/test.yml/badge.svg)](https://github.com/pyowonsik/cocode_postal/actions/workflows/test.yml)
+[![pub package](https://img.shields.io/pub/v/postal_ko.svg?label=postal_ko&color=blue)](https://pub.dev/packages/postal_ko)
+[![Pub Likes](https://img.shields.io/pub/likes/postal_ko)](https://pub.dev/packages/postal_ko/score)
+[![Test](https://github.com/coco-de/postal_ko/actions/workflows/test.yml/badge.svg)](https://github.com/coco-de/postal_ko/actions/workflows/test.yml)
 
 [![English](https://img.shields.io/badge/Language-English-9cf?style=for-the-badge)](README.md)
 [![Korean](https://img.shields.io/badge/Language-Korean-9cf?style=for-the-badge)](README.ko-kr.md)
 
-# 🚀 cocode_postal
+# 🚀 postal_ko
 
 A **cross-platform** Flutter package for Korean postal address search using [Kakao postcode service](https://postcode.map.daum.net/guide).
 
@@ -22,11 +22,11 @@ A **cross-platform** Flutter package for Korean postal address search using [Kak
 
 ## 🚀 Getting Started
 
-Add cocode_postal to your pubspec.yaml file:
+Add postal_ko to your pubspec.yaml file:
 
 ```yaml
 dependencies:
-  cocode_postal: ^1.0.0
+  postal_ko: ^1.0.0
 ```
 
 ## 📱 Platform Support
@@ -101,7 +101,7 @@ Add `NSAppTransportSecurity` to your `info.plist`:
 ### Basic Usage
 
 ```dart
-import 'package:cocode_postal/cocode_postal.dart';
+import 'package:postal_ko/postal_ko.dart';
 
 // Using callback
 TextButton(
@@ -187,7 +187,7 @@ If you're migrating from the original `kpostal` package:
 
    ```yaml
    dependencies:
-     cocode_postal: ^1.0.0 # Replace kpostal
+     postal_ko: ^1.0.0 # Replace kpostal
    ```
 
 2. Update imports:
@@ -197,7 +197,7 @@ If you're migrating from the original `kpostal` package:
    import 'package:kpostal/kpostal.dart';
 
    // New
-   import 'package:cocode_postal/cocode_postal.dart';
+   import 'package:postal_ko/postal_ko.dart';
    ```
 
 3. The API remains the same - no code changes needed! ✨
