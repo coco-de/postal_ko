@@ -1,13 +1,13 @@
-[![pub package](https://img.shields.io/pub/v/kpostal.svg?label=kpostal&color=blue)](https://pub.dev/packages/kpostal)
-[![Pub Likes](https://img.shields.io/pub/likes/kpostal)](https://pub.dev/packages/kpostal/score)
-[![Test](https://github.com/TykanN/kpostal/actions/workflows/test.yml/badge.svg)](https://github.com/TykanN/kpostal/actions/workflows/test.yml)
+[![pub package](https://img.shields.io/pub/v/postal_ko.svg?label=postal_ko&color=blue)](https://pub.dev/packages/postal_ko)
+[![Pub Likes](https://img.shields.io/pub/likes/postal_ko)](https://pub.dev/packages/postal_ko/score)
+[![Test](https://github.com/coco-de/postal_ko/actions/workflows/test.yml/badge.svg)](https://github.com/coco-de/postal_ko/actions/workflows/test.yml)
 
 [![English](https://img.shields.io/badge/Language-English-blueviolet?style=for-the-badge)](README.md)
 [![Korean](https://img.shields.io/badge/Language-Korean-blueviolet?style=for-the-badge)](README.ko-kr.md)
 
 # kpostal에 대해
 
-Kpostal 패키지는 [카카오 우편번호 서비스](https://postcode.map.daum.net/guide)를 이용해서 한국 도로명 주소/우편번호를 검색할 수 있습니다.  
+Kpostal 패키지는 [카카오 우편번호 서비스](https://postcode.map.kakao.com/guide)를 이용해서 한국 도로명 주소/우편번호를 검색할 수 있습니다.  
 더 이상 지원이 중단된 [Kopo](https://pub.dev/packages/kopo) 패키지를 참고하여 제작되었습니다.
 
 기본적으로 Github에 호스팅된 주소 검색 페이지를 사용합니다.  
@@ -25,11 +25,11 @@ Null-Safety를 지원합니다.
 ## 시작하기
 
 ㄴ
-pubspec.yaml 파일에 kpostal을 추가해주세요:
+pubspec.yaml 파일에 postal_ko를 추가해주세요:
 
 ```yaml
 dependencies:
-  kpostal:
+  postal_ko: ^1.1.0
 ```
 
 ## 플랫폼별 설정
@@ -94,7 +94,7 @@ info.plist 파일에 `NSAppTransportSecurity`를 추가해주세요.
 ## 사용 예시
 
 ```dart
-import 'package:kpostal/kpostal.dart';
+import 'package:postal_ko/postal_ko.dart';
 
 // 콜백 기능으로 사용
 TextButton(

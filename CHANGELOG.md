@@ -1,3 +1,25 @@
+## 1.1.0
+
+### 🔄 MIGRATION - Kakao Postcode Domain & Namespace Update
+
+카카오 우편번호 서비스의 도메인 및 API 네임스페이스 변경에 대응합니다.
+([참고: daumPostcode/QnA#1498](https://github.com/daumPostcode/QnA/issues/1498))
+
+- **CDN 도메인 변경**: `t1.daumcdn.net` → `t1.kakaocdn.net`
+- **JS API 네임스페이스 변경**: `daum.Postcode` → `kakao.Postcode`
+- **서비스 도메인 참조 업데이트**: `postcode.map.daum.net` → `postcode.map.kakao.com`
+
+### 🐛 BUG FIXES
+
+- 로컬 서버 경로 버그 수정: `/packages/kpostal/assets/` → `/packages/postal_ko/assets/`
+- LICENSE 파일 내 Git merge conflict markers 제거
+- CHANGELOG 내 패키지명 오타 수정 (`cocode_postal` → `postal_ko`)
+
+### 📝 DOCUMENTATION
+
+- README.md / README.ko-kr.md 서비스 도메인 링크 업데이트
+- README.ko-kr.md 패키지명 및 import 경로를 `postal_ko`로 통일
+
 ## 1.0.0
 
 ### 🚀 NEW FEATURES
@@ -29,7 +51,7 @@
 
 ### 💥 BREAKING CHANGES
 
-- Package name changed from `kpostal` to `cocode_postal`
+- Package name changed from `kpostal` to `postal_ko`
 - Minimum Flutter version: `3.24.0`
 - Minimum Dart SDK version: `^3.5.0`
 - Updated Android `minSdkVersion` to `19`

@@ -1,6 +1,6 @@
 name: postal_ko
 description: A cross-platform Flutter package for Korean postal address search using Kakao postcode service. Supports both mobile and web platforms seamlessly.
-version: 1.0.0
+version: 1.1.0
 homepage: https://github.com/coco-de/postal_ko
 repository: https://github.com/coco-de/postal_ko
 issue_tracker: https://github.com/coco-de/postal_ko/issues

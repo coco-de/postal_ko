@@ -32,7 +32,7 @@ void _loadKakaoPostcode(String containerId) {
     // 스크립트 로드
     final script = web.HTMLScriptElement();
     script.src =
-        '//t1.daumcdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
+        '//t1.kakaocdn.net/mapjsapi/bundle/postcode/prod/postcode.v2.js';
 
     // addEventListener로 load 이벤트 처리
     script.addEventListener(
@@ -86,9 +86,9 @@ void _initializePostcode(String containerId) {
     initScript.text = '''
       (function() {
         const container = document.getElementById('$containerId');
-        if (container && window.daum && window.daum.Postcode) {
+        if (container && window.kakao && window.kakao.Postcode) {
           try {
-            new daum.Postcode({
+            new kakao.Postcode({
               oncomplete: function(data) {
                 const result = {
                   postCode: data.zonecode,

@@ -7,7 +7,7 @@
 
 # 🚀 postal_ko
 
-A **cross-platform** Flutter package for Korean postal address search using [Kakao postcode service](https://postcode.map.daum.net/guide).
+A **cross-platform** Flutter package for Korean postal address search using [Kakao postcode service](https://postcode.map.kakao.com/guide).
 
 ## ✨ Features
 
@@ -26,7 +26,7 @@ Add postal_ko to your pubspec.yaml file:
 
 ```yaml
 dependencies:
-  postal_ko: ^1.0.0
+  postal_ko: ^1.1.0
 ```
 
 ## 📱 Platform Support
@@ -187,7 +187,7 @@ If you're migrating from the original `kpostal` package:
 
    ```yaml
    dependencies:
-     postal_ko: ^1.0.0 # Replace kpostal
+     postal_ko: ^1.1.0 # Replace kpostal
    ```
 
 2. Update imports:
@@ -213,5 +213,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🙏 Acknowledgments
 
 - Inspired by the original [kpostal](https://pub.dev/packages/kpostal) package
-- Built with [Kakao Postcode Service](https://postcode.map.daum.net/guide)
+- Built with [Kakao Postcode Service](https://postcode.map.kakao.com/guide)
 - Thanks to all contributors and users! 🎉

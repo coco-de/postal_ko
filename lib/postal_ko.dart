@@ -140,7 +140,7 @@ class _KpostalViewState extends State<KpostalView> {
     targetUri = widget.useLocalServer
         ? Uri.http(
             'localhost:${widget.localPort}',
-            '/packages/kpostal/assets/kakao_postcode_localhost.html',
+            '/packages/postal_ko/assets/kakao_postcode_localhost.html',
             queryParams)
         : Uri.https('tykann.github.io', '/kpostal/assets/kakao_postcode.html',
             queryParams);
